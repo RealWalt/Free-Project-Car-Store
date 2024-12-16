@@ -1,0 +1,150 @@
+    /*Importante*/
+    html {
+        box-sizing: border-box;
+        font-size: 62.5%; /*1 REM = 10px*/
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    body{
+        font-family: "Raleway", serif;
+        font-size: 1.6rem;
+        line-height: 2;
+        
+      }
+
+      /*Globales*/
+      a{
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      /*Utilizables*/
+      .text-center{
+        text-align: center;
+      }
+
+      .btn{
+        color: #000;
+        display: block;
+        padding: 2rem;
+        font-size: 2rem;
+      }
+
+      .container{
+        max-width: 120rem;
+        margin: 0 auto;
+      }
+
+      /*Imagen del header*/
+      .nav-img{
+        background-image: url(../img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding-top: 3rem;
+      }
+
+      header{
+        color: #fff;
+      }
+
+      header span{
+        color: #dd0000;
+      }
+
+      header h1{
+        margin: 0;
+      }
+
+      /*Background de la barra de navegacion*/
+      .color-back{
+        background-color: #1b1b1b;
+        padding: 3rem;
+      }
+
+      .nav-principal{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-principal a:hover{
+        background-color: #fff;
+        color: #000000;
+      }
+
+      /*Categorias*/
+      .categorias{
+        padding-top: 5rem;
+      }
+
+      .categorias a{
+        display: block;
+        max-width: 50rem;
+        padding: 2rem;
+        text-align: center;
+        color: #000;
+        border-bottom-right-radius: 1rem;
+      }
+
+      .categorias a:hover{
+        background-color: #dd0000;
+        color: #fff;
+        transition: background-color 0.3s ease-out;
+      }
+
+      .listado-categoria{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+      }
+
+      .categorias:nth-child(1) img{
+        width: 100%;
+        height: 30rem;
+        object-fit: cover;
+      }
+
+      .categorias:nth-child(2) img{
+        width: 100%;
+        height: 30rem;
+        object-fit: cover;
+      }
+      .categorias:nth-child(3) img{
+        width: 100%;
+        height: 30rem;
+        object-fit: cover;
+      }
+
+      /*FOOTER*/
+      .site-footer{
+        border-top: #e1e1e1 solid 1px;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        margin-bottom: .5rem;
+      }
+
+
+      .site-footer a{
+        color: #000;
+        text-transform: capitalize;
+      }
+
+      .grid-footer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+      }
+
+      .footer-menu a{
+        display: block;
+      }
+
+      /*Responsive 1.0*/
+
+      @media (max-width: 798px) {
+        .nav-principal{
+          display: block;
+        }
+      }
