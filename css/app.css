@@ -140,11 +140,3 @@
       .footer-menu a{
         display: block;
       }
-
-      /*Responsive 1.0*/
-
-      @media (max-width: 798px) {
-        .nav-principal{
-          display: block;
-        }
-      }
